@@ -1,0 +1,15 @@
+#mvn compile  
+#mvn exec:java -Dexec.mainClass="uk.ac.ed.ds.kant.DistributedSystems.TestA" -Dexec.args="complete_graph 1"
+
+if [ "$1" = "cool" ]
+then
+    echo "Cool Beans"
+elif [ "$1" = "neat" ]
+then
+    echo "Neato cool"
+else
+    echo "Not Cool Beans"
+fi
+      
+
+
